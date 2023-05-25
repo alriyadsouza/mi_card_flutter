@@ -4,13 +4,20 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+MiCard - How to Build Beautiful UIs with Flutter Widgets
+    MiCard Stub Project
+    Widgets Catalogue
+    Container Documentation
+    Column Documentation
+    Row Documentation
+    Tomek's Flutter Layout Cheat Sheet
+    Download fancy fonts from fonts.google.com
+    How to add fonts to the pubspec.yaml file
+    The Icons Class
+    Material Design Icons
+    Icons on materialpalette.com
+    Card Class Documentation
+    The Padding Class
+    The ListTile Class
+    Flutter's Horizontal Rule - The Divider
+    MiCard Completed Project
