@@ -37,55 +37,43 @@ class MyApp extends StatelessWidget {
                 letterSpacing: 2.5,
               ),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
-                padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 19.0),
                 color: Colors.white,
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+91 8660527370',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.black54,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+91 8660527370',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20.0,
-                        fontFamily: 'SourceSansPro',
-                        color: Colors.black54,
-                      ),
-                    )
-                  ],
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
-                padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 19.0),
                 color: Colors.white,
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '21i03.alriya@sjec.ac.in',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.black54,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '21i03.alriya@sjec.ac.in',
-                      style: TextStyle(
-                        //fontWeight: FontWeight.bold,
-                        fontSize: 20.0,
-                        fontFamily: 'SourceSansPro',
-                        color: Colors.black54,
-                      ),
-                    )
-                  ],
-                ),
+                  ),
+                )
               ),
             ],
           ),
