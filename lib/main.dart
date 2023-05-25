@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                     Text(
                       '21i03.alriya@sjec.ac.in',
                       style: TextStyle(
-                        fontWeight: FontWeight.bold,
+                        //fontWeight: FontWeight.bold,
                         fontSize: 20.0,
                         fontFamily: 'SourceSansPro',
                         color: Colors.black54,
